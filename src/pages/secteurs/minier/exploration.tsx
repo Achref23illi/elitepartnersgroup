@@ -6,11 +6,11 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-// Professional African mining exploration images from Unsplash
-const heroImage = 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const geologicalSurveyImage = 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2025&q=80';
-const feasibilityStudyImage = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const permittingImage = 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+// Professional African mining exploration images featuring Black African people and mining exploration activities
+const heroImage = 'https://images.unsplash.com/photo-1696059928249-f036c4d54338?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWluaW5nJTIwZXhwbG9yYXRpb258ZW58MHx8MHx8fDA%3D';
+const geologicalSurveyImage = 'https://images.unsplash.com/photo-1725811641354-abf990c9c0a7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWZyaWNhbiUyMG1pbmluZyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8MHx8fDA%3D';
+const feasibilityStudyImage = 'https://plus.unsplash.com/premium_photo-1682148265567-b3f301bffa84?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZHJpbGxpbmclMjBleHBsb3JhdGlvbnxlbnwwfHwwfHx8MA%3D%3D';
+const permittingImage = 'https://images.unsplash.com/photo-1688841747582-41097036109d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWZyaWNhbiUyMG1pbmluZyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8MHx8fDA%3D';
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 40 },

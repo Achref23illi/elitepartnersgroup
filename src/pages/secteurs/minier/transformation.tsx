@@ -6,11 +6,11 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-// Professional African mining transformation images from Unsplash
-const heroImage = 'https://images.unsplash.com/photo-1606914469841-e3678b46db6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80';
-const refiningImage = 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80';
-const valueAddedImage = 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2025&q=80';
-const exportImage = 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+// Professional African mining transformation images featuring Black African people
+const heroImage = 'https://images.unsplash.com/photo-1697281679290-ad7be1b10682?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHhzZWFyY2h8MTV8fG1pbmVyYWwlMjBwcm9jZXNzaW5nfGVufDB8fDB8fHww';
+const refiningImage = 'https://plus.unsplash.com/premium_photo-1682146891912-6bc7768da82e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFmcmljYW4lMjBtYW51ZmFjdHVyaW5nfGVufDB8fDB8fHww';
+const valueAddedImage = 'https://images.unsplash.com/photo-1741591647844-459b2864269c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMG1hbnVmYWN0dXJpbmd8ZW58MHx8MHx8fDA%3D';
+const exportImage = 'https://plus.unsplash.com/premium_photo-1661963449696-89b762c74a32?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1pbmVyYWwlMjBwcm9jZXNzaW5nfGVufDB8fDB8fHww';
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 40 },

@@ -6,11 +6,11 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-// Professional local representation images from Unsplash
-const heroImage = 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2084&q=80';
-const commercialRepresentationImage = 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80';
-const negotiationContractsImage = 'https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const localOfficeManagementImage = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+// Professional African local representation images featuring Black African people
+const heroImage = 'https://plus.unsplash.com/premium_photo-1664300108565-fdd8a6132123?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGh1bWFuJTIwcmVzb3VyY2VzfGVufDB8fDB8fHww';
+const commercialRepresentationImage = 'https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuJTIwaW4lMjB5ZWxsb3clMjBibGF6ZXIlMjBhbmQlMjBibHVlJTIwZGVuaW0lMjBqZWFucyUyMHNtaWxpbmd8ZW58MHx8MHx8fDA%3D';
+const negotiationContractsImage = 'https://images.unsplash.com/photo-1521791136064-7986c2920216?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHVtYW4lMjByZXNvdXJjZXN8ZW58MHx8MHx8fDA%3D';
+const localOfficeManagementImage = 'https://images.unsplash.com/photo-1609220136736-443140cffec6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9ncmFwaHklMjBvZiUyMHBlb3BsZSUyMGluc2lkZSUyMHJvb20lMjBkdXJpbmclMjBkYXl0aW1lfGVufDB8fDB8fHww';
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 40 },

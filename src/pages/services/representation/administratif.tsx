@@ -6,11 +6,11 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-// Professional business and legal images from Unsplash
-const heroImage = 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const businessCreationImage = 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const legalComplianceImage = 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
-const permitsLicensesImage = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+// Professional African administrative services images featuring Black African people  
+const heroImage = 'https://images.unsplash.com/photo-1567016526105-22da7c13161a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrJTIwYnVzaW5lc3MlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D';
+const businessCreationImage = 'https://images.unsplash.com/photo-1609220136736-443140cffec6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9ncmFwaHklMjBvZiUyMHBlb3BsZSUyMGluc2lkZSUyMHJvb20lMjBkdXJpbmclMjBkYXl0aW1lfGVufDB8fDB8fHww';
+const legalComplianceImage = 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWFuJTIwc2lnbmluZyUyMG9uJTIwd2hpdGUlMjBwcmludGVyJTIwcGFwZXIlMjBiZXNpZGUlMjB3b21hbiUyMGFib3V0JTIwdG8lMjB0b3VjaCUyMHRoZSUyMGRvY3VtZW50c3xlbnwwfHwwfHx8MA%3D%3D';
+const permitsLicensesImage = 'https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuJTIwaW4lMjB5ZWxsb3clMjBibGF6ZXIlMjBhbmQlMjBibHVlJTIwZGVuaW0lMjBqZWFucyUyMHNtaWxpbmd8ZW58MHx8MHx8fDA%3D';
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 40 },
